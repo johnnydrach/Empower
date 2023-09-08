@@ -1,0 +1,25 @@
+.test-button {
+  position: relative;
+  font-size: 12px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.primary {
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  background-color: #4200ff;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.primary:hover {
+  background-color: #1f1737;
+  border-radius: 6px;
+}
+.primary:disabled {
+  background-color: rgba(66, 0, 255, 0.5);
+}
